@@ -9,7 +9,7 @@ function Myself() {
     <div className='h-full w-full bg-slate-500 flex flex-col items-center px-4 sm:px-12 sm:py-2 md:px-12 md:py-2 text-white'>
         <div className='flex items-center w-full my-6 md:my-12'>
             <h1 className='max-w-md sm:max-w-full md:max-w-full mx-auto sm:px-2 sm:leading-normal md:px-0 leading-relaxed md:leading-normal md:mx-0 text-xl sm:text-2xl  md:text-center'>
-                Welcome to <span className='text-2xl sm:text-3xl font-semibold hover:text-orange-400 transition duration-200 ease-in-out'>Budget-Trip.com</span> — formerly known as <span className='text-2xl sm:text-3xl font-semibold hover:text-orange-400 transition duration-200 ease-in-out'>Pirates Of Vacation</span> — your ultimate partner for exploring the world without breaking the bank! 🌟
+                Welcome to <span className='text-2xl sm:text-3xl font-semibold hover:text-orange-400 transition duration-200 ease-in-out'>Budget-Trip.com</span> — a  sister company of <span className='text-2xl sm:text-3xl font-semibold hover:text-orange-400 transition duration-200 ease-in-out'>Pirates Of Vacation</span> — your ultimate partner for exploring the world without breaking the bank! 🌟
                 We specialize in affordable, memorable, and customized travel experiences across the globe.
                 From dreamy beach vacations to thrilling mountain adventures, we make sure you explore your favorite destinations with comfort and excitement.
             </h1>
