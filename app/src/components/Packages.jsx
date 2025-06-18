@@ -7,7 +7,7 @@ function Packages() {
   const [loading, setLoading] = useState(true);
 
   useEffect(()=>{
-    axios.get('http://localhost:5000/api/packages/')
+    axios.get('https://budget-trip-com-server.onrender.com/api/packages/')
     .then((response)=>{
       setPackages(response.data);
       setLoading(false);

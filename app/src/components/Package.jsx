@@ -7,17 +7,17 @@ function Package() {
     const { id } = useParams();
     const [packageData, setPackageData] = useState(null);
     const [loading, setLoading] = useState(true);
-    const [error, setError] = useState(false); // ⬅️ new
+    const [error, setError] = useState(false); 
 
     useEffect(() => {
-        axios.get(`http://localhost:5000/api/packages/${id}`)
+        axios.get(`https://budget-trip-com-server.onrender.com/api/packages/${id}`)
             .then((response) => {
                 setPackageData(response.data);
                 setLoading(false);
             })
             .catch((error) => {
                 console.error('Error in Fetching Package Details...', error);
-                setError(true); // ⬅️ show error if 404
+                setError(true); 
                 setLoading(false);
             });
     }, [id]);
