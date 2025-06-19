@@ -30,10 +30,10 @@ function Myself() {
             className="text-3xl sm:text-4xl hover:text-blue-500 transition duration-300">
             <FaFacebookF />
             </a>
-            <a href="https://www.x.com/budgettrip2024" target="_blank" rel="noopener noreferrer"
+            {/* <a href="https://www.x.com/budgettrip2024" target="_blank" rel="noopener noreferrer"
             className="text-3xl sm:text-4xl hover:text-black transition duration-300">
             <FaXTwitter />
-            </a>
+            </a> */}
         </div>
         </div>
       </div>
